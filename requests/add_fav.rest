@@ -1,0 +1,9 @@
+POST http://localhost:3000/favorites HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "yansi",
+    "name": "ocaso",
+    "price": 98,
+    "imageURL": "https://i.ibb.co/N9xPhCb/ocaso2.png"
+}

@@ -1,6 +1,6 @@
 const accesorios = [
     {
-        id: "vaso-meowblack",
+        id: "a-meow-black",
         name: 'Vaso Black',
         price: 300,
         imageURL: 'https://i.ibb.co/6wyjh1n/prod-cupcat.png',
@@ -11,7 +11,7 @@ const accesorios = [
         page: "product_accesorios"
     },
     {
-        id: "vaso-meow",
+        id: "a-meow",
         name: 'Vaso Meow',
         price: 285,
         imageURL: 'https://i.ibb.co/MVXMcjn/prod-cupcat2.png',
@@ -22,7 +22,7 @@ const accesorios = [
         page: "product_accesorios"
     },
     {
-        id: "vaso-green",
+        id: "a-green",
         name: "Vaso Green",
         price: 295,
         imageURL: 'https://i.ibb.co/qj4YNcf/prod-cupgreen.png',

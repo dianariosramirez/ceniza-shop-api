@@ -1,6 +1,6 @@
 const tizanas = [
     {
-        id: "recuerdame",
+        id: "t-recuerdame",
         name: "Recuérdame",
         price: 169,
         imageURL: 'https://i.ibb.co/dcw8v2y/recuerdame-2.png',
@@ -11,7 +11,7 @@ const tizanas = [
         page: "product_tizanas"
     },
     {
-        id: "hakuna-matata",
+        id: "t-hakuna-matata",
         name: 'Hakuna Matata',
         price: 140,
         imageURL: 'https://i.ibb.co/mS4dJcZ/hm-1.png',
@@ -22,7 +22,7 @@ const tizanas = [
         page: "product_tizanas"
     },
     {
-        id: "atardecer",
+        id: "t-atardecer",
         name: 'Atardecer',
         price: 149,
         imageURL: 'https://i.ibb.co/31d5fLt/atardecer-1.png',
@@ -33,7 +33,7 @@ const tizanas = [
         page: "product_tizanas"
     },
     {
-        id: "raiz",
+        id: "t-raiz",
         name: 'Raiz',
         price: 135,
         imageURL: 'https://i.ibb.co/xJLfRLh/raiz-11.png',
@@ -44,7 +44,7 @@ const tizanas = [
         page: "product_tizanas"
     },
     {
-        id: "ocaso",
+        id: "t-ocaso",
         name: 'Ocaso',
         price: 98,
         imageURL: 'https://i.ibb.co/N9xPhCb/ocaso1.png',
@@ -55,7 +55,7 @@ const tizanas = [
         page: "product_tizanas"
     },
     {
-        id: "oasis",
+        id: "t-oasis",
         name: 'Oasis',
         price: 85,
         imageURL: 'https://i.ibb.co/CHy3FZM/oasis-1.png',
@@ -66,7 +66,7 @@ const tizanas = [
         page: "product_tizanas"
     },
     {
-        id: "dias-rosas",
+        id: "t-dias-rosas",
         name: 'Días rosas',
         price: 90,
         imageURL: 'https://i.ibb.co/ckdQvTS/diasrosas-1.png',

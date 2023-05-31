@@ -1,6 +1,6 @@
 const paquetes = [
     {
-        id: "kit-navideño",
+        id: "p-kit-navideño",
         name: 'Kit navideño',
         price: 390,
         imageURL: 'https://i.ibb.co/JKqHwxw/paq1.png',
@@ -15,7 +15,7 @@ const paquetes = [
         page: "product_paquetes"
     },
     {
-        id: "kit-2",
+        id: "p-kit-claus",
         name: 'Kit Claus',
         price: 559,
         imageURL: 'https://i.ibb.co/4gYyZjK/paq1-1.png',

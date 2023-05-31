@@ -28,6 +28,31 @@ app.get( '/accesorios', ( req, res ) => {
     res.send( accesorios )
 })
 
+// Get product detail
+const getProduct = ( productType, productId ) => {
+    let productFound = [];
+    if (productType === "tizanas"){
+        productFound = tizanas.find( elem => elem.id === productId);
+    } else if (productType === "paquetes"){
+        productFound = paquetes.find( elem => elem.id === productId);
+    } else {
+        productFound = accesorios.find( elem => elem.id === productId);
+    }
+
+    return productFound;
+}
+
+app.get('/product', (req, res) => {
+    const productType = req.query.productType;
+    const productId = req.query.productId;
+
+    const product = getProduct( productType, productId );
+    if (!product) {
+        return res.status(404).json({ error: 'Producto no encontrado' });
+    }
+    res.json(product);
+})
+
 // to favorites
 
 let favorites = [];

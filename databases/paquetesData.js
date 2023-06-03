@@ -3,7 +3,7 @@ const paquetes = [
         id: "p-kit-navideño",
         name: 'Kit navideño',
         price: 390,
-        imageURL: 'https://i.ibb.co/JKqHwxw/paq1.png',
+        imageURL: 'https://i.ibb.co/C64yvjQ/paquete-2.png',
         type: "Edición especial: Navidad",
         info: `Incluye: 
                 ⁘ 1 tisana frutal en bolsa de 60 g. 
@@ -18,7 +18,7 @@ const paquetes = [
         id: "p-kit-claus",
         name: 'Kit Claus',
         price: 559,
-        imageURL: 'https://i.ibb.co/4gYyZjK/paq1-1.png',
+        imageURL: 'https://i.ibb.co/tZ65xZz/paquete-1.png',
         type: "Edición especial: Navidad",
         info: `Incluye:
                 ⁘ Cajita Navideña de palma natural. 

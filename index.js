@@ -16,7 +16,7 @@ app.use( cors() );
 
 // to get product's data
 
-app.get( '/tisanas', ( req, res ) => {
+app.get( '/tizanas', ( req, res ) => {
     res.send( tisanas )
 })
 

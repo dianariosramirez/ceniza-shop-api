@@ -4,7 +4,7 @@ const cors = require("cors");
 
 
 // Databases
-const tizanas = require("./databases/tizanasData");
+const tisanas = require("./databases/tisanasData");
 const paquetes = require("./databases/paquetesData");
 const accesorios = require("./databases/accesoriosData");
 const users = require("./databases/users");
@@ -16,8 +16,8 @@ app.use( cors() );
 
 // to get product's data
 
-app.get( '/tizanas', ( req, res ) => {
-    res.send( tizanas )
+app.get( '/tisanas', ( req, res ) => {
+    res.send( tisanas )
 })
 
 app.get( '/paquetes', ( req, res ) => {
@@ -31,8 +31,8 @@ app.get( '/accesorios', ( req, res ) => {
 // Get product detail
 const getProduct = ( productType, productId ) => {
     let productFound = [];
-    if (productType === "tizanas"){
-        productFound = tizanas.find( elem => elem.id === productId);
+    if (productType === "tisanas"){
+        productFound = tisanas.find( elem => elem.id === productId);
     } else if (productType === "paquetes"){
         productFound = paquetes.find( elem => elem.id === productId);
     } else {

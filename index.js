@@ -53,6 +53,14 @@ app.get('/product', (req, res) => {
     res.json(product);
 })
 
+// Search products
+
+app.get('/product', (req, res) =>{
+    const products = tisanas.concat(paquetes, accesorios);
+
+    res.json(products);
+})
+
 // to favorites
 
 let favorites = [];

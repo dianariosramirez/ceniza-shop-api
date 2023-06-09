@@ -55,7 +55,7 @@ app.get('/product', (req, res) => {
 
 // Search products
 
-app.get('/product', (req, res) =>{
+app.get('/products', (req, res) =>{
     const products = tisanas.concat(paquetes, accesorios);
 
     res.json(products);
